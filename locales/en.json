@@ -1,0 +1,196 @@
+{
+  "home": {
+    "title": "Meme Court",
+    "titleAccent": "Objection!",
+    "subtitle": "Defend the weirdest cases on the internet.",
+    "description": "Choose evidence, cross-examine witnesses, and convince the AI Judge with your most chaotic arguments.",
+    "startButton": "Start Trial",
+    "badge1": "Mobile-first AI courtroom game",
+    "badge2": "No download required",
+    "badge3": "Every trial is unique",
+    "sampleCases": "Sample Cases",
+    "examples": [
+      "A raccoon accused of pizza theft",
+      "A cat charged with emotional manipulation",
+      "An AI sued for terrible dating advice",
+      "A duck claiming ownership of the moon",
+      "A pizza box testifying in its own defense"
+    ]
+  },
+  "loading": {
+    "title": "Court is in session...",
+    "messages": [
+      "The AI Judge is reviewing the chaos…",
+      "Generating a legally questionable case…",
+      "Summoning suspicious evidence…",
+      "Preparing courtroom drama…",
+      "The witness is trying to remember what happened…",
+      "Consulting the ancient meme archives…",
+      "Adjusting the judge's emotional stability settings…",
+      "Locating the defendant (last seen near the snack table)…"
+    ]
+  },
+  "case": {
+    "caseNumber": "Case #",
+    "category": "Category",
+    "defendant": "Defendant",
+    "charge": "Charge",
+    "summary": "Case Summary",
+    "atmosphere": "Courtroom Atmosphere",
+    "startDefense": "Start Defense →",
+    "todaysCase": "Today's Case"
+  },
+  "evidence": {
+    "title": "Choose Your Evidence",
+    "subtitle": "Pick 2 pieces of evidence to support your defense. Choose wisely.",
+    "confirmButton": "Confirm 2 Evidence Cards →",
+    "confirmDisabled": "Select 2 cards to continue",
+    "selectHint": "Select 2 evidence cards to continue",
+    "selectOne": "Good — pick one more",
+    "selectDone": "Ready to proceed",
+    "selected": "selected",
+    "tags": {
+      "Weird": "Weird",
+      "Suspicious": "Suspicious",
+      "Useful": "Useful",
+      "Chaotic": "Chaotic",
+      "Damning": "Damning",
+      "Questionable": "Questionable"
+    }
+  },
+  "witness": {
+    "title": "Cross-Examine the Witness",
+    "subtitle": "The witness looks nervous. Or dramatic. Or both. Choose your approach.",
+    "witnessLabel": "Witness",
+    "roleLabel": "Role",
+    "testimonyLabel": "Testimony",
+    "buttons": {
+      "polite": "Ask Politely",
+      "politeDesc": "Boost Logic",
+      "objection": "Shout \"Objection!\"",
+      "objectionDesc": "Boost Drama",
+      "evidence": "Use Evidence Trap",
+      "evidenceDesc": "Boost Evidence",
+      "roast": "Roast the Witness",
+      "roastDesc": "Boost Humor"
+    },
+    "moodLabel": "Judge Mood",
+    "chooseApproach": "Choose Your Approach",
+    "moods": {
+      "annoyed": "Annoyed",
+      "confused": "Confused",
+      "amused": "Amused",
+      "impressed": "Impressed",
+      "convinced": "Convinced"
+    }
+  },
+  "defense": {
+    "title": "Final Defense",
+    "subtitle": "Write your closing argument. Be logical, funny, dramatic, or completely unhinged.",
+    "evidenceLabel": "Your Evidence",
+    "testimonyLabel": "Witness Said",
+    "inputPlaceholder": "Example: My client is innocent because the evidence is suspicious and the vibes are off.",
+    "charCount": "characters",
+    "submitButton": "Submit to AI Judge",
+    "presets": {
+      "0": "My client was clearly framed by forces beyond our understanding.",
+      "1": "The evidence proves nothing except that my client has excellent taste.",
+      "2": "Your Honor, I present the concept of vibes as my primary argument."
+    },
+    "presetsLabel": "Need inspiration?"
+  },
+  "verdict": {
+    "title": "Final Verdict",
+    "subtitle": "The AI Judge has spoken.",
+    "scores": {
+      "logic": "Logic",
+      "humor": "Humor",
+      "evidence": "Evidence",
+      "drama": "Drama"
+    },
+    "totalScore": "Total Score",
+    "rank": "Rank",
+    "judgeComment": "Judge's Comment",
+    "playAgain": "Play Again",
+    "shareResult": "Share Result",
+    "shareText": "⚖️ Meme Court: Objection!\nCase: {caseTitle}\nVerdict: {result}\nRank: {rank} — {rankTitle}\nScore: {totalScore}/100\nJudge says: \"{judgeComment}\"\n\nPlay at: memecourt.vercel.app"
+  },
+  "ranks": {
+    "S": "Legendary Chaos Lawyer",
+    "A": "Smooth Talker",
+    "B": "Suspicious Genius",
+    "C": "Clown Attorney",
+    "D": "Guilty by Vibes"
+  },
+  "errors": {
+    "aiUnavailable": "The AI Judge stepped out for a moment. Using backup case files.",
+    "copySuccess": "Result copied to clipboard!",
+    "copyFail": "Could not copy. Try again.",
+    "retryButton": "Try Again"
+  },
+  "nav": {
+    "darkMode": "Dark mode",
+    "lightMode": "Light mode",
+    "language": "Language",
+    "newTrial": "New Trial"
+  },
+  "sidebar": {
+    "progress": "Trial Progress",
+    "currentCase": "Current Case",
+    "defendant": "Def.",
+    "evidence": "Evidence",
+    "finalScore": "Final Score",
+    "phases": {
+      "opening": "Opening Statement",
+      "case_reveal": "Read the Case",
+      "evidence": "Choose Evidence",
+      "witness_1": "Witness 1",
+      "witness_1_rebuttal": "Witness 1 Rebuttal",
+      "witness_2": "Witness 2",
+      "witness_2_rebuttal": "Witness 2 Rebuttal",
+      "judge_question": "Judge's Question",
+      "defense": "Final Defense",
+      "verdict": "Verdict"
+    }
+  },
+  "opening": {
+    "judgeLabel": "The Honorable Judge",
+    "courtInSession": "Court is now in session",
+    "caseLabel": "Today's Case",
+    "statementLabel": "Opening Statement",
+    "continueButton": "Proceed to Case Details →"
+  },
+  "rebuttal": {
+    "rebuttalLabel": "Rebuttal",
+    "title": "The Witness Fights Back",
+    "subtitle": "Your questioning provoked a response. The witness has more to say.",
+    "moodNote": "The judge is watching how you handle this. Stay composed.",
+    "continueButton": "Continue →"
+  },
+  "judgeQ": {
+    "label": "Direct Question",
+    "title": "The Judge Has a Question",
+    "subtitle": "The judge addresses you directly. Choose your response carefully.",
+    "judgeTitle": "The Honorable Judge",
+    "presiding": "Presiding",
+    "chooseResponse": "Choose Your Response",
+    "confident": "Answer Confidently",
+    "confidentDesc": "Assert your position boldly",
+    "humble": "Answer Humbly",
+    "humbleDesc": "Show respect for the court",
+    "deflect": "Deflect Cleverly",
+    "deflectDesc": "Redirect the question",
+    "funny": "Answer with Humor",
+    "funnyDesc": "Risk it for the biscuit"
+  },
+  "categories": {
+    "Food Crimes": "Food Crimes",
+    "Pet Drama": "Pet Drama",
+    "AI Accidents": "AI Accidents",
+    "Influencer Chaos": "Influencer Chaos",
+    "Student Life": "Student Life",
+    "Space Nonsense": "Space Nonsense",
+    "Office Chaos": "Office Chaos",
+    "Internet Meme Disputes": "Internet Meme Disputes"
+  }
+}

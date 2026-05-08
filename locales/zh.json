@@ -1,0 +1,196 @@
+{
+  "home": {
+    "title": "梗图法庭",
+    "titleAccent": "异议！",
+    "subtitle": "为互联网上最离谱的案件辩护。",
+    "description": "选择证据，质问证人，用你最混乱的论点说服 AI 法官。",
+    "startButton": "开始审判",
+    "badge1": "移动端优先的 AI 法庭游戏",
+    "badge2": "无需下载",
+    "badge3": "每局案件独一无二",
+    "sampleCases": "案件示例",
+    "examples": [
+      "浣熊被指控偷窃披萨",
+      "猫咪被控情绪操控",
+      "AI 因给出糟糕恋爱建议而被起诉",
+      "鸭子声称拥有月球所有权",
+      "披萨盒为自己出庭作证"
+    ]
+  },
+  "loading": {
+    "title": "法庭开庭中...",
+    "messages": [
+      "AI 法官正在审阅混乱局面……",
+      "正在生成一个法律上存疑的案件……",
+      "正在召唤可疑证据……",
+      "正在准备法庭戏剧效果……",
+      "证人正在努力回忆发生了什么……",
+      "正在查阅古老的梗图档案……",
+      "正在调整法官的情绪稳定性设置……",
+      "正在寻找被告（最后目击地点：零食桌附近）……"
+    ]
+  },
+  "case": {
+    "caseNumber": "案件 #",
+    "category": "案件类型",
+    "defendant": "被告",
+    "charge": "指控",
+    "summary": "案件摘要",
+    "atmosphere": "法庭气氛",
+    "startDefense": "开始辩护 →",
+    "todaysCase": "今日案件"
+  },
+  "evidence": {
+    "title": "选择你的证据",
+    "subtitle": "选择2件证据支持你的辩护。请谨慎选择。",
+    "confirmButton": "确认2张证据卡 →",
+    "confirmDisabled": "请选择2张卡继续",
+    "selectHint": "选择2张证据卡继续",
+    "selectOne": "很好——再选一张",
+    "selectDone": "准备好了",
+    "selected": "已选",
+    "tags": {
+      "Weird": "奇怪",
+      "Suspicious": "可疑",
+      "Useful": "有用",
+      "Chaotic": "混乱",
+      "Damning": "致命",
+      "Questionable": "存疑"
+    }
+  },
+  "witness": {
+    "title": "质问证人",
+    "subtitle": "证人看起来很紧张，或者很戏剧化，或者两者兼有。选择你的方式。",
+    "witnessLabel": "证人",
+    "roleLabel": "身份",
+    "testimonyLabel": "证词",
+    "buttons": {
+      "polite": "礼貌询问",
+      "politeDesc": "提升逻辑分",
+      "objection": "大喊「异议！」",
+      "objectionDesc": "提升戏剧分",
+      "evidence": "证据反问",
+      "evidenceDesc": "提升证据分",
+      "roast": "吐槽证人",
+      "roastDesc": "提升幽默分"
+    },
+    "moodLabel": "法官情绪",
+    "chooseApproach": "选择你的方式",
+    "moods": {
+      "annoyed": "生气",
+      "confused": "困惑",
+      "amused": "被逗笑",
+      "impressed": "感兴趣",
+      "convinced": "被说服"
+    }
+  },
+  "defense": {
+    "title": "最终辩护",
+    "subtitle": "写下你的结案陈词。可以有逻辑、有趣、有戏剧感，或者完全失控。",
+    "evidenceLabel": "你的证据",
+    "testimonyLabel": "证人说",
+    "inputPlaceholder": "例如：我的当事人是无辜的，因为证据很可疑，而且氛围不对。",
+    "charCount": "字符",
+    "submitButton": "提交给 AI 法官",
+    "presets": {
+      "0": "我的当事人显然是被某种超出我们理解的力量陷害的。",
+      "1": "这些证据什么都证明不了，只能证明我的当事人品味极佳。",
+      "2": "法官大人，我以「氛围」作为主要论据。"
+    },
+    "presetsLabel": "需要灵感？"
+  },
+  "verdict": {
+    "title": "最终判决",
+    "subtitle": "AI 法官已经宣判。",
+    "scores": {
+      "logic": "逻辑",
+      "humor": "幽默",
+      "evidence": "证据",
+      "drama": "戏剧"
+    },
+    "totalScore": "总分",
+    "rank": "等级",
+    "judgeComment": "法官点评",
+    "playAgain": "再玩一局",
+    "shareResult": "分享结果",
+    "shareText": "⚖️ 梗图法庭：异议！\n案件：{caseTitle}\n判决：{result}\n等级：{rank} — {rankTitle}\n得分：{totalScore}/100\n法官说：「{judgeComment}」\n\n游戏地址：memecourt.vercel.app"
+  },
+  "ranks": {
+    "S": "传奇混乱律师",
+    "A": "能说会道者",
+    "B": "可疑天才",
+    "C": "小丑律师",
+    "D": "凭氛围定罪"
+  },
+  "errors": {
+    "aiUnavailable": "AI 法官暂时离开了一下。正在使用备用案件档案。",
+    "copySuccess": "结果已复制到剪贴板！",
+    "copyFail": "复制失败，请重试。",
+    "retryButton": "重试"
+  },
+  "nav": {
+    "darkMode": "深色模式",
+    "lightMode": "浅色模式",
+    "language": "语言",
+    "newTrial": "新案件"
+  },
+  "sidebar": {
+    "progress": "审判进度",
+    "currentCase": "当前案件",
+    "defendant": "被告",
+    "evidence": "已选证据",
+    "finalScore": "最终得分",
+    "phases": {
+      "opening": "开庭陈词",
+      "case_reveal": "阅读案件",
+      "evidence": "选择证据",
+      "witness_1": "证人一",
+      "witness_1_rebuttal": "证人一反驳",
+      "witness_2": "证人二",
+      "witness_2_rebuttal": "证人二反驳",
+      "judge_question": "法官提问",
+      "defense": "最终辩护",
+      "verdict": "判决"
+    }
+  },
+  "opening": {
+    "judgeLabel": "尊敬的法官",
+    "courtInSession": "法庭现在开庭",
+    "caseLabel": "今日案件",
+    "statementLabel": "开庭陈词",
+    "continueButton": "进入案件详情 →"
+  },
+  "rebuttal": {
+    "rebuttalLabel": "反驳",
+    "title": "证人反击了",
+    "subtitle": "你的质问激起了回应。证人还有话要说。",
+    "moodNote": "法官正在观察你如何应对这一情况。保持冷静。",
+    "continueButton": "继续 →"
+  },
+  "judgeQ": {
+    "label": "直接提问",
+    "title": "法官有问题",
+    "subtitle": "法官直接向你提问。请谨慎选择你的回应。",
+    "judgeTitle": "尊敬的法官",
+    "presiding": "主审",
+    "chooseResponse": "选择你的回应",
+    "confident": "自信回答",
+    "confidentDesc": "大胆表明立场",
+    "humble": "谦逊回答",
+    "humbleDesc": "表达对法庭的尊重",
+    "deflect": "巧妙转移",
+    "deflectDesc": "将问题重新引导",
+    "funny": "幽默回答",
+    "funnyDesc": "冒险一搏"
+  },
+  "categories": {
+    "Food Crimes": "美食犯罪",
+    "Pet Drama": "宠物戏剧",
+    "AI Accidents": "AI 事故",
+    "Influencer Chaos": "网红混乱",
+    "Student Life": "学生生活",
+    "Space Nonsense": "太空胡闹",
+    "Office Chaos": "办公室混乱",
+    "Internet Meme Disputes": "网络梗图纠纷"
+  }
+}
