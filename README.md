@@ -2,7 +2,7 @@
 
 An AI-powered courtroom game where you defend the internet's most absurd cases. Choose evidence, cross-examine witnesses, and convince an AI Judge with your most chaotic legal arguments.
 
-**[▶ Play Now](https://memecourt.vercel.app)** · No download required · Works on mobile
+**[▶ Play Now](https://memecourt.ozemyn.uk)** · No download required · Works on mobile
 
 ---
 
